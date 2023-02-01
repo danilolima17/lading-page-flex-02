@@ -118,9 +118,23 @@ h2 {
     flex-direction: column;
     text-align: center;
     gap: 10px;
-    background-color: #E8E9EA;
     width: 400px;
-   
+    
+}
+
+.price {
+    width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: #2cc76a;
+	color: #FFF;
+	text-align: center;
+	line-height: 120px;
+	font-size: 18px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -30px;
 }
 
 .head-title {
@@ -136,6 +150,12 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.middle-card p {
+    border: 1px solid rgb(219, 219, 219);
+    padding: 5px;
 }
 
 .btn-select {
@@ -185,6 +205,7 @@ h2 {
     height: 50px;
     padding: 15px;
     font-size: 19px;
+    background-color: #fff
 }
 
 .search button {
@@ -248,7 +269,7 @@ textarea {
 
 @media (max-width: 667px) {
     .nav-bar {
-        gap: 20px;
+        gap: 50px;
         justify-content: space-around;
         
     }
