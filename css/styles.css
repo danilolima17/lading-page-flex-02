@@ -32,6 +32,11 @@ body {
     display: flex;
     gap: 50px;
     align-items: center;
+    cursor: pointer;
+}
+
+.nav-list, li, a:hover {
+    color: #2CC76A;
 }
 
 .btn {
@@ -188,9 +193,6 @@ h2 {
     background-color: rgb(241, 183, 175);
     transition: 1s all;
 }
-
-
-
 
 .section-search {
     margin-top: 100px;
