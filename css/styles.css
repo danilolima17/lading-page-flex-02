@@ -18,6 +18,7 @@ body {
     text-transform: uppercase;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .logo {
@@ -168,6 +169,11 @@ h2 {
     height: 70px;
 }
 
+.btn-select:hover {
+    background-color: #a0d1b4;
+    transition: 1s all;
+}
+
 .btn-select-red {
     background-color: rgb(255, 30, 0);
     color: #fff;
@@ -177,6 +183,14 @@ h2 {
     cursor: pointer;
     height: 70px;
 }
+
+.btn-select-red:hover {
+    background-color: rgb(241, 183, 175);
+    transition: 1s all;
+}
+
+
+
 
 .section-search {
     margin-top: 100px;
